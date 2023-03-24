@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Suma{
+
+    public static void main(String[] args) {
+    	Scanner res = new Scanner (System.in);
+        int a;
+        int b;
+        int suma;    
+        System.out.println("insterte el primer digito");
+        a=res.nextInt();
+        System.out.println ("inserte el segundo digito");
+        b=res.nextInt();  
+        suma = a + b;    
+        System .out.println("El resultado de la suma es:"+ resultado);        
+    }
+}
