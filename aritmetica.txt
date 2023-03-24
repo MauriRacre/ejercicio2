@@ -1,3 +1,7 @@
-let a = 5;
-let b = 5;
-console.log(a*b);
+public class multiplicacion
+{
+    public int multiplicar(int n1, int n2){
+        int resultado = n1 * n2;
+        return resultado;
+    }
+}
