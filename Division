@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Division{
+    public static void main(String[] args) {
+    Scanner res = new Scanner (System.in);
+    int n1 = 0;
+    int n2 = 0;
+    int resultado = 0;
+    System.out.println("primer valor");
+    n1=res.nextInt();
+    System.out.println ("segundo valor");
+    n2=res.nextInt();
+    if (n1>n2)
+      resultado = n1 / n2;
+    else
+      resultado = n2 / n1 ;
+    System.out.println("total: "+ resultado);
+     
+    }
+}
